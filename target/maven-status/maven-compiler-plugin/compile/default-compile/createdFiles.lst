@@ -1,0 +1,7 @@
+com\mastercard\ApplicationStarter.class
+com\mastercard\filter\CORSFilter.class
+com\mastercard\service\ICityService.class
+com\mastercard\config\JerseyConfig.class
+com\mastercard\service\CityServiceImpl.class
+com\mastercard\endpoint\CityEndpoint.class
+com\mastercard\model\City.class

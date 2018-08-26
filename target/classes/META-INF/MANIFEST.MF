@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: MastercardCityConnection-demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: JAI MATA DI
+Implementation-Vendor-Id: com.mastercard
+Build-Jdk: 1.8.0_05
+Implementation-URL: http://projects.spring.io/spring-boot/CityConnecti
+ on/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
