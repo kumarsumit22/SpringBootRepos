@@ -22,13 +22,13 @@ import com.mastercard.service.ICityService;
 public class CityEndpoint {
 	private static final Logger logger = LoggerFactory.getLogger(CityEndpoint.class);
 	@Autowired
-	private ICityService articleService;
+	private ICityService cityService;
 
 	@GET
 	@Produces("text/html")
 	public Response getResultByPassingValue(@QueryParam("origin") String originVal,
 			@QueryParam("destination") String destinationVal) {
-		boolean connectedcity = articleService.getConnectedCity(originVal, destinationVal);
+		boolean connectedcity = cityService.getConnectedCity(originVal, destinationVal);
 		logger.info("called the service");
 		String output;
 		if (connectedcity) {
