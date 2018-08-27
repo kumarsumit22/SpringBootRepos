@@ -1,8 +1,8 @@
 # SpringBootRepos
-This project has been developed in the spring boot and Jersey
+This project has been developed in the spring boot and Jersey. 
 Instruction for Running the application.
-1. Download and extract the project.
-2. Naviated into the extracted directory of the project and run the CMD prompt.
+1. Download and extract the project in "CityConnection" directory.
+2. Navigated into the extracted directory of the project and run the CMD prompt.
 3. Run the command "mvn spring-boot:run"
 
 URL to get the response of this project.
